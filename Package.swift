@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TinyConstraints",
     platforms: [
-        .macOS(.v10_11), .iOS(.v9), .tvOS(.v9)
+        .iOS(.v9)
     ],
     products: [
         .library(name: "TinyConstraints", targets: ["TinyConstraints"])
